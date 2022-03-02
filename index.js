@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 app.get('/',(req,res)=>{
-  res.send("Hello! from the server")
+  res.send("Hello Wolrd from the server")
 })
 
 const CONNECTION_URL = 'mongodb+srv://syedamahamfahim:syedamahamfahim@memories.r9pn9.mongodb.net/memories?retryWrites=true&w=majority';
